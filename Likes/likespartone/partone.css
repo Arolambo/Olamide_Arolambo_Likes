@@ -1,0 +1,29 @@
+.container {
+    border-style: groove;
+    height: 150px;
+    width: 380px;
+    padding-left: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.submit {
+    background-color: rgb(243, 200, 7);
+    box-shadow: 2px 2px 5px black;
+    font-family: sans-serif;
+}
+
+.p {
+    font-family: sans-serif;
+}
